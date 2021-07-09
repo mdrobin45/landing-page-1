@@ -145,3 +145,36 @@ article.fetures-article {
 img#feture-left-image {
     width: 75%;
 }
+img.partner-logo {
+    width: 17%;
+    margin: auto;
+}
+#partner-serction-bg{
+    background: linear-gradient(27deg, rgba(236,65,255,1) 2%, rgba(9,132,227,1) 99%);
+}
+.section-header {
+    padding: 0 17rem;
+}
+.flexible.blog-section-cards img {
+    width: 70%;
+    margin: auto;
+    display: block;
+}
+section.flexible.blog-section-cards article {
+    background: linear-gradient(
+27deg
+, rgba(236,65,255,1) 2%, rgba(9,132,227,1) 99%);
+    width: 25%;
+    margin: auto;
+    border-radius: 22px;
+    padding: 23px 22px;
+    color: #fff;
+}
+.flexible.blog-card-bottom a, i, p {
+    margin: auto;
+    color: #fff;
+}
+.flexible.blg-menu h4 {
+    padding: 0 13px;
+    margin: auto;
+}
