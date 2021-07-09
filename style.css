@@ -1,0 +1,147 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 95%;
+    margin: auto;
+}
+h1{
+    font-size: 50px;
+    color: #fff;
+}
+h2{
+    font-size: 38px;
+}
+h3{
+    font-size: 20px;
+}
+.section-header-p{
+    font-size: 19px;
+}
+.text-white{
+    color: #fff;
+}
+.text-dark{
+    color: #333;
+}
+.text-center{
+    text-align: center;
+}
+.pd{
+    padding: 1rem 0rem;
+}
+.section-pd{
+    padding: 5rem 0;
+}
+a{
+    text-decoration: none;
+    color: #333;
+}
+ul li {
+    float: left;
+    list-style: none;
+    padding: 0 20px;
+}
+img{
+    width: 100%;
+}
+.btn-style {
+    border: 2px solid #227DE6;
+    padding: 10px;
+    border-radius: 30px;
+    color: #227DE6;
+    display: inline-block;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.btn-style-middle-service {
+    border: 2px solid #fff;
+    padding: 10px;
+    border-radius: 30px;
+    color: #fff;
+    display: inline-block;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.float-L{
+    float: left;
+}
+.flexible{
+    display: flex;
+}
+#logo-area{
+ float: left;
+}
+section.menu-area {
+    float: right;
+    line-height: 5;
+}
+#content-section {
+    clear: both;
+    padding:9rem 0rem;
+}
+#header {
+    background: url(images/header-bg.svg);
+    background-position: -500px -333px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#header-left-p {
+    padding-right: 17rem;
+}
+img.app-link-img {
+    width: 27%;
+    margin: 0px 5px;
+}
+.app-store-a{
+    display: contents;
+}
+.icon-style {
+    font-size: 15px;
+    background: #EC41FF;
+    margin: 0 10px;
+    text-align: center;
+    padding: 10px 10px;
+    color: #fff;
+    width: 20px;
+    border-radius: 50%;
+    height: 20px;
+}
+#social-integ {
+    width: 90%;
+}
+.service-article {
+    box-shadow: 2px 2px 10px -5px #000000;
+    width: 28%;
+    margin: 0 30px;
+    padding: 15px 5px;
+    border-radius: 5px;
+    background: #fff;
+}
+#service-main-div {
+    justify-content: center;
+    padding: 11rem 0rem;
+}
+article#middle-servic {
+    background: linear-gradient(
+140deg
+, #EC41FF, #0984E3);
+    color: #fff;
+}
+#service-section-bg{
+    background:#EEEEEE;
+}
+img.fetures-sm-card-img {
+    width: 15%;
+    float: left;
+    padding-right: 15px;
+}
+article.fetures-article {
+    padding: 25px 0;
+    padding-right: 15px;
+}
+img#feture-left-image {
+    width: 75%;
+}
