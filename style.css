@@ -30,7 +30,7 @@ h3{
     text-align: center;
 }
 .pd{
-    padding: 1rem 0rem;
+    padding: 1.5rem 0rem;
 }
 .section-pd{
     padding: 5rem 0;
@@ -117,8 +117,9 @@ img.app-link-img {
     width: 28%;
     margin: 0 30px;
     padding: 15px 5px;
-    border-radius: 5px;
+    border-radius: 20px;
     background: #fff;
+    color: #333;
 }
 #service-main-div {
     justify-content: center;
@@ -149,7 +150,7 @@ img.partner-logo {
     width: 17%;
     margin: auto;
 }
-#partner-serction-bg{
+.serction-bg{
     background: linear-gradient(27deg, rgba(236,65,255,1) 2%, rgba(9,132,227,1) 99%);
 }
 .section-header {
@@ -170,11 +171,110 @@ section.flexible.blog-section-cards article {
     padding: 23px 22px;
     color: #fff;
 }
-.flexible.blog-card-bottom a, i, p {
+.flexible.blog-card-bottom > a,i {
     margin: auto;
     color: #fff;
 }
 .flexible.blg-menu h4 {
     padding: 0 13px;
     margin: auto;
+}
+.blog-card-bottom.pd,#blog-botton-icon {
+    justify-content: space-between;
+    display: flex;
+}
+span#blog-botton-icon>p {
+    margin-left: 10px;
+}
+section#portfolio-img-sec {
+    justify-content: center;
+    display: flex;
+    margin-top: 2rem;
+}
+#portfolio-section{
+    padding-bottom: 0;
+}
+section#portfolio-img-sec > img {
+    width: 80%;
+    margin-bottom: -150px;
+}
+#review-b{
+    display: block;
+    text-align: center;
+}
+img#user-image {
+    margin: auto;
+    width: 10%;
+    display: block;
+    border-radius: 50%;
+}
+section#review-text {
+    background: linear-gradient(
+27deg
+, rgba(236,65,255,1) 2%, rgba(9,132,227,1) 99%);
+    padding: 18px;
+    width: 75%;
+    margin: 2rem auto 0 auto;
+    color: #fff;
+    border-radius: 22px;
+}
+section#review-section {
+    padding-top: 10rem;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: auto;
+    padding-top: 2em;
+}
+input[type="text"] {
+    padding: 10px 5px;
+    background: #fff;
+    font-size: 1em;
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 1em;
+}
+button[type=submit] {
+    padding: 10px 0;
+    background: linear-gradient(
+27deg
+, rgba(236,65,255,1) 2%, rgba(9,132,227,1) 99%);
+    font-size: 1em;
+    border: none;
+    color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#contact-section-bg {
+    background: #EEEEEE;
+    padding: 5rem 0;
+    margin-top: 5rem;
+}
+section#contact-header {
+    width: 90%;
+    margin: auto;
+}
+img#contact-image {
+    width: 65%;
+}
+section#contact-img-sec {
+    justify-content: space-around;
+    display: flex;
+}
+div#contact-seciton {
+    align-items: center;
+}
+.flexible.blg-menu {
+    padding: 1em 0;
+}
+.flexible.blg-menu h4{
+    cursor: pointer;
+}
+.flexible.blg-menu h4:nth-child(1){
+    border-bottom: 2px solid #EC41FF;
+}
+.flexible.blg-menu h4:hover{
+    border-bottom: 2px solid #EC41FF;
 }

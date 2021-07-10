@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"/>
 </head>
 <body>
@@ -129,7 +129,7 @@
         </div>
     </section>
     <!-- Partner Section -->
-    <section id="partner-serction-bg" class="section-pd">
+    <section  class="section-pd serction-bg">
         <section class="text-center text-white section-header">
             <b>We work with the best</b>
             <h2>Our Partners</h2>
@@ -162,38 +162,87 @@
                     <img src="images/blog1.png" alt="Blog">
                     <h3 class="pd">Creative, Fintech</h3>
                     <p class="pd">Showcase some of your recent news stories and link to your medium.com or external blog.</p>
-                    <div class="flexible blog-card-bottom pd">
-                        <a href="#">View more <i class="fas fa-long-arrow-alt-right"></i></a>
-                        
-                        <p><i class="fas fa-eye"></i> 1750</p>
-                        <p><i class="fas fa-heart"></i> 520</p>
+                    <div class=" blog-card-bottom pd">
+                        <a class="text-white" href="#">View more <i class="fas fa-long-arrow-alt-right"></i></a>
+                        <span id="blog-botton-icon" class="flexible">
+                            <p><i class="fas fa-eye"></i> 1750</p>
+                            <p><i class="fas fa-heart"></i> 520</p>
+                        </span>
                     </div>
                 </article>
                 <article>
                     <img src="images/blog2.png" alt="Blog">
                     <h3 class="pd">Modern, Fintech</h3>
                     <p class="pd">This is also a great place to feature some of your company's recent news in the press and online.</p>
-                    <div class="flexible blog-card-bottom pd">
-                        <a href="#">View more <i class="fas fa-long-arrow-alt-right"></i></a>
-                        
-                        <p><i class="fas fa-eye"></i> 1750</p>
-                        <p><i class="fas fa-heart"></i> 520</p>
+                    <div class=" blog-card-bottom pd">
+                        <a class="text-white" href="#">View more <i class="fas fa-long-arrow-alt-right"></i></a>
+                        <span id="blog-botton-icon" class="flexible">
+                            <p><i class="fas fa-eye"></i> 1750</p>
+                            <p><i class="fas fa-heart"></i> 520</p>
+                        </span>
                     </div>
                 </article>
                 <article>
                     <img src="images/blog3.png" alt="Blog">
                     <h3 class="pd">Creative, Marketing</h3>
                     <p class="pd">Click on the category links above and you'll see your blog posts get filtered right before your eyes.</p>
-                    <div class="flexible blog-card-bottom pd">
-                        <a href="#">View more <i class="fas fa-long-arrow-alt-right"></i></a>
-                        
-                        <p><i class="fas fa-eye"></i> 1750</p>
-                        <p><i class="fas fa-heart"></i> 520</p>
+                    <div class=" blog-card-bottom pd">
+                        <a class="text-white" href="#">View more <i class="fas fa-long-arrow-alt-right"></i></a>
+                        <span id="blog-botton-icon" class="flexible">
+                            <p><i class="fas fa-eye"></i> 1750</p>
+                            <p><i class="fas fa-heart"></i> 520</p>
+                        </span>
                     </div>
                 </article>
             </section>
         </div>
-        
+    </section>
+    <section id="portfolio-section" class="serction-bg section-pd">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2 class="text-white">Made to pixel perfection</h2>
+                <p class="text-white">Show your clients something eye catching here to grab their attention and make them want to signup to your great service today</p>
+            </div>
+            <section id="portfolio-img-sec" class="flexible">
+                <img id="portfolio-img" src="images/perfection-header-img.png" alt="Image">
+            </section>
+        </div>
+    </section>
+    <section id="review-section">
+        <b id="review-b">What they say about us</b>
+        <h2 class="text-center">Client reviews</h2>
+        <img id="user-image" class="text-center" src="images/user.svg" alt="User">
+        <h3 class="text-center">Jhon McDonaldson</h3>
+        <p class="text-center">Software Engineer</p>
+        <section id="review-text">
+            <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis animi, rem consequatur culpa ullam aliquid temporibus deleniti nostrum provident praesentium porro asperiores, dolore nemo? Delectus neque ea voluptate dolorum? Recusandae.
+            </p>
+        </section>
+    </section>
+    <section id="contact-section-bg">
+        <div id="contact-seciton" class="container flexible">
+            <section>
+                <section id="contact-header">
+                    <b>Contact the team</b>
+                    <h2>Start a conversation</h2>
+                    <p>
+                        We're always available for a chat so do feel free to get in touch below and a member of the team will get right back to you.
+                    </p>
+                </section>
+                
+                <form action="#">
+                    <input type="text" placeholder="Name">
+                    <input type="text" placeholder="Email">
+                    <input type="text" placeholder="Message">
+                    <button type="submit">Submit Message</button>
+                </form>
+                
+            </section>
+            <section id="contact-img-sec">
+                <img id="contact-image" src="images/contact.png" alt="Img">
+            </section>
+        </div>
     </section>
 </body>
 </html>
